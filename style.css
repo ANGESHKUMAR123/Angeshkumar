@@ -712,9 +712,9 @@ section {
     transition: all 0.3s ease;
 }
 
-.hobby-card:hover img.hobby-icon {
+/* .hobby-card:hover img.hobby-icon {
     transform: scale(1.3) rotateZ(360deg);
-}
+} */
 
 .hobby-card h4 {
     font-size: 16px;
