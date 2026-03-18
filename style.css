@@ -632,7 +632,7 @@ section {
 
 /* About Section */
 .about {
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .about-content {
@@ -790,7 +790,7 @@ section {
 
 /* Skills Section */
 .skills {
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
+   background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .skills-content {
@@ -879,7 +879,7 @@ section {
 
 /* Education Section */
 .education {
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(0, 212, 255, 0.1));
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .timeline {
@@ -964,7 +964,7 @@ section {
 
 /* Projects Section */
 .projects {
-    background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(139, 92, 246, 0.1));
+   background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .projects-grid {
@@ -1087,7 +1087,7 @@ section {
 
 /* Certifications Section */
 .certifications {
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+ background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .certifications-grid {
@@ -1161,7 +1161,7 @@ section {
 }
 /* Internship Section */
 .internship {
-    background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(0, 212, 255, 0.1));
+ background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .internship-card {
@@ -1211,7 +1211,7 @@ section {
 
 /* Courses Section */
 .course {
-    background: linear-gradient(135deg, rgba(235, 67, 151, 0.1), rgba(0, 212, 255, 0.1));
+  background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 /* layout container for the two course cards */
@@ -1282,7 +1282,7 @@ section {
 } 
 /* Counter Section */
 .counter {
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
+   background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .counter-grid {
@@ -1329,7 +1329,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(99, 102, 241, 0.1));
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .contact-content {
