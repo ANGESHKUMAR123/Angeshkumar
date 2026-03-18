@@ -12,6 +12,16 @@
     --glow-color: rgba(99, 102, 241, 0.3);
 }
 
+body.dark-mode {
+    --background-color: #040405;
+    --surface-color: #1e293b;
+    --text-color: #e2e8f0;
+    --text-secondary: #cbd5e1;
+    --glass-bg: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(226, 232, 240, 0.1);
+    --glow-color: rgba(99, 102, 241, 0.3);
+}
+
 body.light-mode {
     --background-color: #f8fafc;
     --surface-color: #f1f5f9;
@@ -252,6 +262,8 @@ body {
     border-radius: 2px;
     transition: all 0.3s ease;
 }
+
+/* Responsive navigation: show hamburger on small screens and toggle menu */
 @media (max-width: 900px) {
     .nav-container {
         padding: 0 16px;
@@ -632,7 +644,7 @@ section {
 
 /* About Section */
 .about {
-    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
 }
 
 .about-content {
@@ -712,9 +724,9 @@ section {
     transition: all 0.3s ease;
 }
 
-/* .hobby-card:hover img.hobby-icon {
+.hobby-card:hover img.hobby-icon {
     transform: scale(1.3) rotateZ(360deg);
-} */
+}
 
 .hobby-card h4 {
     font-size: 16px;
@@ -790,7 +802,7 @@ section {
 
 /* Skills Section */
 .skills {
-   background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
 }
 
 .skills-content {
@@ -862,9 +874,9 @@ section {
     transition: all 0.3s ease;
 }
 
-/* .skill-card:hover img.skill-icon {
+.skill-card:hover img.skill-icon {
     transform: scale(1.3) rotateZ(360deg);
-} */
+}
 
 .skill-card span {
     font-size: 13px;
@@ -879,7 +891,7 @@ section {
 
 /* Education Section */
 .education {
-    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(0, 212, 255, 0.1));
 }
 
 .timeline {
@@ -964,7 +976,7 @@ section {
 
 /* Projects Section */
 .projects {
-   background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(139, 92, 246, 0.1));
 }
 
 .projects-grid {
@@ -1087,7 +1099,7 @@ section {
 
 /* Certifications Section */
 .certifications {
- background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
 }
 
 .certifications-grid {
@@ -1126,10 +1138,10 @@ section {
     margin-bottom: 10px;
     transition: all 0.3s ease;
 }
-/* 
+
 .cert-card:hover img.cert-icon {
     transform: scale(1.3) rotateZ(360deg);
-} */
+}
 
 .cert-card h4 {
     font-size: 16px;
@@ -1161,7 +1173,7 @@ section {
 }
 /* Internship Section */
 .internship {
- background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(0, 212, 255, 0.1));
 }
 
 .internship-card {
@@ -1211,7 +1223,7 @@ section {
 
 /* Courses Section */
 .course {
-  background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(235, 67, 151, 0.1), rgba(0, 212, 255, 0.1));
 }
 
 /* layout container for the two course cards */
@@ -1282,7 +1294,7 @@ section {
 } 
 /* Counter Section */
 .counter {
-   background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
 }
 
 .counter-grid {
@@ -1329,7 +1341,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(99, 102, 241, 0.1));
 }
 
 .contact-content {
@@ -1733,4 +1745,3 @@ section {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--secondary-color);
 }
-
