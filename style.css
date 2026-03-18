@@ -153,6 +153,16 @@ body {
     transition: all 0.3s ease;
 }
 
+body.light-mode .glass-card {
+    background: #e5e7eb; /* gray in light mode */
+    border: 1px solid #000000; /* black border in light mode */
+}
+
+body.light-mode .glass-card:hover {
+    background: #d1d5db;
+    border-color: #000000;
+}
+
 .glass-card:hover {
     background: rgba(99, 102, 241, 0.15);
     border-color: rgba(99, 102, 241, 0.3);
