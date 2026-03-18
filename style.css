@@ -2,34 +2,40 @@
     --primary-color: #1f1fe4;
     --secondary-color: #8b5cf6;
     --tertiary-color: #e02a94;
-    --background-color: #040405;
+    --background-color: #000000;
     --surface-color: #1e293b;
-    --text-color: #e2e8f0;
+    --text-color: #ffffff;
     --text-secondary: #cbd5e1;
     --glass-bg: rgba(30, 41, 59, 0.7);
     --glass-border: rgba(226, 232, 240, 0.1);
     --accent-color: #00d4ff;
     --glow-color: rgba(99, 102, 241, 0.3);
+    --section-background: #000000;
+    --section-text: #ffffff;
 }
 
 body.dark-mode {
-    --background-color: #040405;
+    --background-color: #000000;
     --surface-color: #1e293b;
-    --text-color: #e2e8f0;
+    --text-color: #ffffff;
     --text-secondary: #cbd5e1;
     --glass-bg: rgba(30, 41, 59, 0.7);
     --glass-border: rgba(226, 232, 240, 0.1);
     --glow-color: rgba(99, 102, 241, 0.3);
+    --section-background: #000000;
+    --section-text: #ffffff;
 }
 
 body.light-mode {
-    --background-color: #f8fafc;
+    --background-color: #ffffff;
     --surface-color: #f1f5f9;
-    --text-color: #1e293b;
+    --text-color: #000000;
     --text-secondary: #475569;
     --glass-bg: rgba(241, 245, 249, 0.7);
     --glass-border: rgba(30, 41, 59, 0.1);
     --glow-color: rgba(99, 102, 241, 0.15);
+    --section-background: #ffffff;
+    --section-text: #000000;
 }
 
 * {
@@ -617,6 +623,12 @@ section {
     position: relative;
     z-index: 2;
     padding: 100px 20px;
+    background: var(--section-background) !important;
+    color: var(--section-text) !important;
+}
+
+section * {
+    color: inherit !important;
 }
 
 .section-title {
@@ -1497,17 +1509,17 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--primary-color);
+    color: var(--section-text);
     text-decoration: none;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
-    color: white;
+    background: var(--section-background);
 }
 
 .social-icon:hover {
     transform: translateY(-5px) scale(1.1);
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white;
+    color: var(--section-text);
     box-shadow: 0 5px 20px var(--glow-color);
 }
 
