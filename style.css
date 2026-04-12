@@ -360,7 +360,7 @@ body.light-mode .glass-card:hover {
     overflow: hidden;
 }
 
-.hero::before {
+/* .hero::before {
     content: '';
     position: absolute;
     width: 500px;
@@ -393,7 +393,7 @@ body.light-mode .glass-card:hover {
     50% {
         transform: translate(-50%, -50%) scale(1.2);
     }
-}
+} */
 
 .hero-content {
     position: relative;
