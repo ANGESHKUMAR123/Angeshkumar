@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initNavigation();
     initScrollReveal();
     initCounterAnimation();
-    initFormValidation();
+    // initFormValidation();
     initHamburger();
 });
 
